@@ -37,8 +37,8 @@ data<-rbind(test, train)
 
 #making activity a factor var with appropriate labels
 data<-rename(data, activity=V1)
-data$activity<-factor(data$activity, levels=1:6, labels=c("walking,
-      walking upstairs", "walking downstairs", "sitting", "standing", "laying")) 
+activity_labels<-c("walking", "walking upstairs", "walking downstairs", "sitting", "standing", "laying")
+data$activity<-factor(data$activity, levels=1:6, labels=activity_labels) 
 
 #cleaning up var names
 names(data)<-tolower(names(data))
