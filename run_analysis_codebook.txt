@@ -1,17 +1,26 @@
 There are 68 variables in the data set.
 
 subject: integer; denotes the study participant (1-30).
-activity: factor; 6 categories denoting activity (walking, walking upstairs, walking downstairs, sitting, standing, laying) performed by subject. 
+activity: factor; 6 categories denoting activity (walking, walking upstairs, walking downstairs, sitting, standing, laying) performed 
+          by subject. 
 
-The remaining 66 variables are the measurements taken. All variables below appear in the dataset with one of two suffices (mean and std) specifying their type. 
-Moreover, the first eight variables below have three subcategories (x, y, z) each with its own suffix (x, y, or z) to denote the plane (side to side, forward and backward, or up and down) being recorded.
+The remaining 66 variables are the measurements taken. All variables below appear in the dataset with one of two suffices (mean and 
+          std) specifying their type. Moreover, the first eight variables below have three subcategories (x, y, z) each with its own 
+          suffix (x, y, or z) to denote the plane (side to side, forward and backward, or up and down) being recorded.
+
 E.g. timebodyaccxmean, timebodyaccymean, timebodyacczmean...
 
 From the original dataset:
 
-The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeacc-XYZ and timegyro-XYZ. These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (timebodyacc-XYZ and timegravityacc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
-Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (timebodyaccjerk-XYZ and timebodygyrojerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (timebodyaccmag, timegravityaccmag, timebodyaccjerkmag, timebodygyromag, timebodygyrojerkmag). 
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing freqbodyacc-XYZ, freqbodyaccjerk-XYZ, freqbodygyro-XYZ, freqbodyaccjerkmag, freqbodygyromag, freqbodygyrojerkmag. (Note the 'freq' to indicate frequency domain signals).  
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals timeacc-XYZ and timegyro-XYZ. 
+These time domain signals were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low 
+pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body 
+and gravity acceleration signals (timebodyacc-XYZ and timegravityacc-XYZ) using another low pass Butterworth filter with a corner frequency
+of 0.3 Hz. Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals 
+(timebodyaccjerk-XYZ and timebodygyrojerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean 
+norm (timebodyaccmag, timegravityaccmag, timebodyaccjerkmag, timebodygyromag, timebodygyrojerkmag). Finally a Fast Fourier Transform (FFT) 
+was applied to some of these signals producing freqbodyacc-XYZ, freqbodyaccjerk-XYZ, freqbodygyro-XYZ, freqbodyaccjerkmag, freqbodygyromag, 
+freqbodygyrojerkmag. (Note the 'freq' to indicate frequency domain signals).  
 
 ##XYZ variables
 timebodyacc
