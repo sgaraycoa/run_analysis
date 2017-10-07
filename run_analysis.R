@@ -57,3 +57,4 @@ varmeans<-function(data){colMeans(data[,-c(1,2)])}
 tidydata<-ddply(data, .(subject, activity), varmeans)
 
 #notice that the output table is 180 rows long (30 subjects x 6 activities)
+write.table(tidydata, file= "./Getting and Cleaning Data/run_analysis/tidydata.txt", row.name=FALSE)
