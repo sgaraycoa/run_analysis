@@ -1,6 +1,6 @@
 ##run_analysis
 
-This repo has two files. First, an R script with the code to tidy a raw dataset from the Human Activity Recognition Using Smartphone project from the University of California Irvine. There are two tidy data sets produced. "data" and "tidydata" which is a "summary" with the average results from "data" by subject and activity type. The second file is a codebok explaining the variables in the dataset.
+This repo has three files. First, an R script with the code to tidy a raw dataset from the Human Activity Recognition Using Smartphone project from the University of California Irvine. There are two tidy data sets produced. "data" and "tidydata" which is a "summary" with the average results from "data" by subject and activity type. The second file is a codebok explaining the variables in the dataset.
 
 
 
